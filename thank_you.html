@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thank You!</title>
+    <style>
+        /* CSS styling to highlight the predicted profit in bold and color */
+        .highlight {
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Thank You for Your Submission</h1>
+    <p>Thank you for your input. Here are the details:</p>
+    <p>R&D Spend: {{ rd_spend }}</p>
+    <p>Administration: {{ administration }}</p>
+    <p>Marketing Spend: {{ marketing_spend }}</p>
+    <p>State: {{ state }}</p>
+    <p>Predicted Profit: <span class="highlight">{{ profit }}</span></p>
+</body>
+</html>
